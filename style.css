@@ -1,0 +1,118 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del encabezado */
+header{
+    border-bottom: 1px solid black;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    background-color: #b4b4b4;
+}
+
+.logo img {
+    height: 37px;
+    width: 50px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.menu li {
+    padding: 5px;
+    margin: 0 30px;
+    position: relative;
+    left: -30px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.cart-icon img {
+    height: 30px;
+}
+
+
+.delivery{
+    position: relative;
+    left: -150px;
+}
+.numero{
+    font-family:'Courier New', Courier, monospace;
+}
+
+.inicio{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;    
+}
+.inicio li{
+    margin: 0 30px;
+}
+.inicio li a{
+color: aliceblue;
+text-decoration: none;
+}
+.encabezado img{
+height: 50px;
+justify-content: center;
+list-style-type: none;  
+}
+
+.header1 {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    background-color: #b4b4b4;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.menu1 {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.menu1 li {
+    position: relative;
+    left: -200px;
+    margin: 0 30px;
+}
+
+.menu1 li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.cart-icon1 img {
+    height: 30px;
+}
+
+.search {
+    position: relative;
+    left: -450px;
+    padding: 10px;
+    border-radius: 5px ;
+}
+.delivery{
+    border:1px solid black;
+    margin: 0px;
+}
+
+
+
