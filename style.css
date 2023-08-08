@@ -1,6 +1,6 @@
 /* Estilos generales */
 body {
-    margin: 0;
+    margin: 2px;
     padding: 0;
 }
 
@@ -109,10 +109,27 @@ list-style-type: none;
     padding: 10px;
     border-radius: 5px ;
 }
-.delivery{
-    border:1px solid black;
-    margin: 0px;
+.container{
+    position: relative;
+    width: 100%;
+    height: 100px;
 }
+.palabra{
+    position: absolute;
+    top: 50px;
+    left: 0;
+    transform: translateY(-50%);
+    animation: mover 5s linear infinite;
+}
+@keyframes mover{
+    from{
+        left: 0;
+    }
+to{
+    left: calc(100%-50px);
+}
+}
+
 
 
 
