@@ -34,5 +34,5 @@ prev.addEventListener('click', function(){
   i--;    
 } 
 activateslide(i);
-});
+}); 
 
