@@ -619,7 +619,8 @@ footer {
 .logo {
     max-width: 90px;
 }
-.busqueda{
+
+.busqueda {
     padding: 10px;
     border-radius: 20px;
 }
@@ -627,8 +628,7 @@ footer {
 
 
 
-.contenedor {
-}
+
 
 .texto {
     position: absolute;
@@ -673,7 +673,7 @@ h1 {
     margin-bottom: 20px;
     background-color: rgba(255, 255, 255, 0.548);
     margin-left: 20px;
-    margin-right: 20px; 
+    margin-right: 20px;
     transition: transform 0.1s;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
