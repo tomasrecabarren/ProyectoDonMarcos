@@ -676,6 +676,8 @@ h1 {
     margin-right: 20px;
     transition: transform 0.1s;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 80%;
+    margin-left: 10%;
 }
 
 .producto:hover {
@@ -721,4 +723,13 @@ a {
 .carruseles {
     display: flex;
     flex-direction: column;
+}
+
+header a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+header a:hover{
+    color: black;
 }
