@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .main {
@@ -626,10 +627,6 @@ footer {
     border-radius: 20px;
 }
 
-
-
-
-.contenedor {}
 
 .texto {
     position: absolute;
